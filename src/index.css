@@ -1,3 +1,4 @@
+/* google font */
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Box sizing border box */
@@ -16,6 +17,7 @@ html {
     box-sizing: inherit;
 }
 
+/* style for disabled rows */
 .disabled {
     border-radius: 30px;
     filter: grayscale();
@@ -133,8 +135,16 @@ button#addrow:hover {
 }
 
 @media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
     .rows {
         width: 100%;
     }
 
+    .row{
+        flex-direction: column;
+        gap: 10px;
+    }
 }

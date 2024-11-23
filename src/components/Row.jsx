@@ -1,10 +1,7 @@
-import Button from './Button/Button.jsx';
+import Button from './Button.jsx';
 
 function Row(props) {
     let id = props.id;
-
-
-    
     return (
         <>
             <div className={props.class}>
